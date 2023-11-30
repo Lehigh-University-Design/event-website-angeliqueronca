@@ -25,7 +25,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
 body {
-  font-family: 'Geologica', sans-serif;
+  font-family: futura-pt, sans-serif;
   background-color: #F5EEE8;
 }
 .color-block {
@@ -72,8 +72,14 @@ body {
   width: 24%; /* Or any other size */
   height: auto;
   border-radius: 25px;
-  display: inline-block; /* Align images side by side */
-  margin-right: 10px; /* Optional: adds some space between the images */
+  margin: .5%;
+ /* Optional: adds some space between the images */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -85,32 +91,36 @@ ul {
   list-style-type: none; /* Removes bullet points */
 }
 h1{
-  font-size: 3rem;
+  font-size: 3vw;
 }
 .thin {
   font-weight: 100;
-  font-size: 3rem;
+  font-size: 3vw;
 }
 .cursive {
-  font-family: 'Luxurious Script', cursive;
-  font-size: 5rem;
+  font-family: filmotype-yale, sans-serif;
+  font-size: 5vw;
   line-height: 0.5;
 }
 .right{
   float:right;
-  width: 50vw;
-  height: 50vh;
-  padding-top: 10%;
+  width: fit-content;
+  height: fit-content;
+  padding-top: 12vh;
 }
 .home{
-  width: auto;
+  width: 50vw;
 }
 header {
   height: 100vh;
 }
-.info{
+.info{  
+  height: fit-content;
+  width: fit-content;
   margin: auto 0;
-  height: 25vh;
+  padding-top: 46vh;
+  text-align: right;
+  padding-left: 15vh;
 }
 .border{
   border: solid black 10px;
@@ -118,4 +128,18 @@ header {
 .image-stack{
   height: 100vh;
   padding-top: 15vh;
+}
+.annual {
+  text-align: right;
+  height: 25vh;
+  font-size: 2vw;
+  padding-right: 38vh;
+  padding-top: 7vh;
+  line-height: 5vh;
+}
+.events {
+  padding-top: 6vh;
+  font-size: 2vw;
+  line-height: 7vh;
+  width: fit-content;
 }
