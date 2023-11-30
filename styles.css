@@ -11,7 +11,7 @@ body {
 }
 img, picture, video, canvas, svg {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
 }
 input, button, textarea, select {
   font: inherit;
@@ -24,7 +24,98 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
-
 body {
-  background-color: peachpuff;
+  font-family: 'Geologica', sans-serif;
+  background-color: #F5EEE8;
+}
+.color-block {
+  padding: 20px;
+  margin: 10px 0;
+  color: white; /* Text color */
+}
+
+#block1 {
+  background-color: #F5EEE8; /* Red */
+}
+
+.o {
+  background-color: #FFB644; /* Green */
+}
+
+.temp{
+  width: 100vw;
+  height: 25vh;
+}
+#block3 {
+  background-color: #F5EEE8; /* Blue */
+}
+.p {
+  background-color: #FFB1BE; /* Blue */
+}
+#block5 {
+  background-color: #F5EEE8; /* Blue */
+}
+.g {
+  background-color: #DFC557; /* Blue */
+}
+#block7 {
+  background-color: #F5EEE8; /* Blue */
+}
+#block8 {
+  background-color: #FFB644; /* Blue */
+}
+#block9 {
+  background-color: #F5EEE8; /* Blue */
+}
+
+.image-container img {
+  width: 24%; /* Or any other size */
+  height: auto;
+  border-radius: 25px;
+  display: inline-block; /* Align images side by side */
+  margin-right: 10px; /* Optional: adds some space between the images */
+}
+
+img {
+  width: 24%;
+  height: auto;
+  border-radius: 25px;
+}
+ul {
+  list-style-type: none; /* Removes bullet points */
+}
+h1{
+  font-size: 3rem;
+}
+.thin {
+  font-weight: 100;
+  font-size: 3rem;
+}
+.cursive {
+  font-family: 'Luxurious Script', cursive;
+  font-size: 5rem;
+  line-height: 0.5;
+}
+.right{
+  float:right;
+  width: 50vw;
+  height: 50vh;
+  padding-top: 10%;
+}
+.home{
+  width: auto;
+}
+header {
+  height: 100vh;
+}
+.info{
+  margin: auto 0;
+  height: 25vh;
+}
+.border{
+  border: solid black 10px;
+}
+.image-stack{
+  height: 100vh;
+  padding-top: 15vh;
 }
