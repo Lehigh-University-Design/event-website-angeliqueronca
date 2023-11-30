@@ -44,7 +44,7 @@ body {
 
 .temp{
   width: 100vw;
-  height: 25vh;
+  height: 30vh;
 }
 #block3 {
   background-color: #F5EEE8; /* Blue */
@@ -142,4 +142,14 @@ header {
   font-size: 2vw;
   line-height: 7vh;
   width: fit-content;
+}
+.vibe {
+ font-size: 4vw;
+ line-height: 8vh; 
+ padding-top: 7vh;
+ padding-left: 15vh;
+}
+.grounds{
+  font-size: 2vw;
+  padding: 10vh;
 }
