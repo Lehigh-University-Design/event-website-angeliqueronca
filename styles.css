@@ -106,7 +106,7 @@ h1{
   float:right;
   width: fit-content;
   height: fit-content;
-  padding-top: 12vh;
+  padding-top: 17vh;
 }
 .home{
   width: 50vw;
@@ -120,7 +120,7 @@ header {
   margin: auto 0;
   padding-top: 46vh;
   text-align: right;
-  padding-left: 15vh;
+  padding-left: 16vh;
 }
 .border{
   border: solid black 10px;
@@ -143,13 +143,46 @@ header {
   line-height: 7vh;
   width: fit-content;
 }
+.bottom{
+  padding-bottom: 49%;
+}
 .vibe {
  font-size: 4vw;
- line-height: 8vh; 
+ line-height: 9vh; 
  padding-top: 7vh;
  padding-left: 15vh;
 }
 .grounds{
   font-size: 2vw;
   padding: 10vh;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  font-size: 2vw;
+  line-height: 7vh;
+}
+.s{
+  font-size: 8vw;
+}
+.questions{
+  font-size: 1.5vw;
+  padding: 10vw;
+  text-align: left;
+}
+.m{
+  font-size: 4vw;
+  line-height: 11vh;
+}
+.cite{
+  padding: 3vw;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  line-height: 2vh;
+}
+.title{
+  font-size: 5vw;
 }
