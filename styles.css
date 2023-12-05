@@ -27,6 +27,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: futura-pt, sans-serif;
   background-color: #F5EEE8;
+  overflow-x: hidden;
 }
 .color-block {
   padding: 20px;
@@ -73,7 +74,13 @@ body {
   height: auto;
   border-radius: 25px;
   margin: .5%;
+  z-index: 1;
+  transition: transform .2s;
  /* Optional: adds some space between the images */
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
 }
 
 .image-container {
@@ -106,7 +113,10 @@ h1{
   float:right;
   width: fit-content;
   height: fit-content;
-  padding-top: 17vh;
+  padding-top: 10vh;
+}
+.right img{
+  margin-left: 18px;
 }
 .home{
   width: 50vw;
@@ -185,4 +195,25 @@ header {
 }
 .title{
   font-size: 5vw;
+}
+#pouring{
+  width: 100%;
+  position: absolute; 
+  top: 60vh;
+}
+.xs{
+  font-size: 4vw;
+}
+.extra{
+  font-size: 5vh;
+  line-height: 9vh;
+}
+#saucer{
+  width: 100%;
+  position:absolute;
+  left: 60vw;
+  top: 420vh;
+}
+.xxs{
+  font-size: 3vw;
 }
