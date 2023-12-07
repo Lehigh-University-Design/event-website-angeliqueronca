@@ -47,26 +47,13 @@ body {
   width: 100vw;
   height: 30vh;
 }
-#block3 {
-  background-color: #F5EEE8; /* Blue */
-}
+
 .p {
   background-color: #FFB1BE; /* Blue */
 }
-#block5 {
-  background-color: #F5EEE8; /* Blue */
-}
+
 .g {
   background-color: #DFC557; /* Blue */
-}
-#block7 {
-  background-color: #F5EEE8; /* Blue */
-}
-#block8 {
-  background-color: #FFB644; /* Blue */
-}
-#block9 {
-  background-color: #F5EEE8; /* Blue */
 }
 
 .image-container img {
@@ -138,6 +125,7 @@ header {
 .image-stack{
   height: 100vh;
   padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 .annual {
   text-align: right;
@@ -216,4 +204,121 @@ header {
 }
 .xxs{
   font-size: 3vw;
+}
+
+/*  Media Queries */
+@media only screen and (max-width: 1000px){
+  .image-stack{
+    height: 80vh;
+    padding-top: 8vh;
+  }
+
+  .right{
+    padding-top: 20vh;
+  }
+
+  .temp{
+    height: 20vh;
+  }
+
+  .vibe {
+    padding-top: 2vh;
+  }
+
+  #saucer{
+    top: 350vh;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .image-stack{
+    height: 60vh;
+  }
+
+  .events {
+    padding-top: 6vh;
+    font-size: 4vw;
+    line-height: 7vh;
+    width: fit-content;
+  }
+
+  .temp{
+    height: 10vh;
+  }
+
+  .vibe {
+    font-size: 4vw;
+    line-height: 3vh; 
+    padding-top: 2vh;
+    padding-left: 5vh;
+  }
+
+  .grounds{
+    font-size: 4vw;
+    padding: 5vh;
+  }
+
+  .extra{
+    font-size: 4vh;
+    line-height: 6vh;
+  }
+
+  .questions{
+    font-size: 4vw;
+    padding: 5vh 0.5vw;
+    text-align: left;
+  }
+
+  .cite{
+    padding: 3vw;
+    font-size: 3vw;
+    justify-content: center;
+    text-align: center;
+    line-height: 2vh;
+  }
+
+  .left{
+    margin: 5%;
+    font-size: 3.5vw;
+    line-height: 2vh;
+  }
+
+  .annual {
+    text-align: right;
+    height: 10vh;
+    font-size: 4vw;
+    padding-right: 1vh;
+    padding-top: 4vh;
+    line-height: 2vh;
+  }
+
+  #saucer{
+    top: 190vh;
+  }
+
+  #pouring{
+    top: 65vh;
+    z-index: -1;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 6vw;
+  }
+
+  .title{
+    font-size: 10vw;
+  }
+
+  .thin {
+    font-size: 6vw;
+  }
+
+  .info{  
+    padding-left: 5vh;
+  }
+
 }
